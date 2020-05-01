@@ -2,6 +2,7 @@
 Python 3.8.2
 Pure Python Implementation of Bubble sort algorithm
 Complexity is O(n^2)
+This algorithm will work on both float and integer type list.
 """
 
 
@@ -18,7 +19,7 @@ def bubble_sort(arr):
 if __name__ == '__main__':
 
     # Taking input from user
-    USER_INPUT = [int(x) for x in input().split()]
+    USER_INPUT = [float(x) for x in input().split()]
 
     # call bublesort to sort an unsorted list.
     print(bubble_sort(USER_INPUT))

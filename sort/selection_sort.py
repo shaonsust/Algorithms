@@ -2,6 +2,7 @@
 Python version: 3.8.2
 This is pure python implementation of selection sort.
 Complexity is O(n^2)
+This algorithm will work on both float and integer type list.
 """
 
 
@@ -22,7 +23,7 @@ def selection_sort(collection):
 if __name__ == "__main__":
 
     # Taking input from user to sort.
-    USER_INPUT = [int(x) for x in input().split()]
+    USER_INPUT = [float(x) for x in input().split()]
 
     # Call selection sort to sort arr list.
     print(selection_sort(USER_INPUT))
