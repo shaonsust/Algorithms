@@ -9,13 +9,13 @@ python merge_sort.py
 
 
 def merge_sort(arr):
-    """[Give an unsorted list and it will return a sorted list.]
+    """Give an unsorted list and it will return a sorted list.
 
     Arguments:
-        arr {[float or integer type list]} -- [an unsorted list of float or interger type.]
+        arr float or integer type list -- an unsorted list of float or interger type.
 
     Returns:
-        [float or integer type list] -- [return a sorted list.]
+        float or integer type list -- return a sorted list.
 
     Example:
     >>> merge_sort([5, 4, 6, 2, 1, 3])
@@ -45,14 +45,14 @@ def merge_sort(arr):
 
 
 def merge(left, right):
-    """[Merged two sorted list.]
+    """Merged two sorted list.
 
     Keyword Arguments:
-        left {list} -- [sorted list] (default: {[]})
-        right {list} -- [sorted list] (default: {[]})
+        left list -- sorted list
+        right list -- sorted list
 
     Returns:
-        [list] -- [Return a merged list of two sorted list.]
+        integer or float type -- Return a sorted merge list of two sorted list.
     """
 
 
