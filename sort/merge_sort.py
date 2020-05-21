@@ -12,7 +12,7 @@ def merge_sort(arr):
     """Give an unsorted list and it will return a sorted list.
 
     Arguments:
-        arr float or integer type list -- an unsorted list of float or interger type.
+        float or integer type list -- it could be sorted or unsorted list.
 
     Returns:
         float or integer type list -- return a sorted list.
@@ -45,7 +45,7 @@ def merge_sort(arr):
 
 
 def merge(left, right):
-    """Merged two sorted list.
+    """Takes two sorted lists as two parameters and then merge it into one sorted list.
 
     Keyword Arguments:
         left list -- sorted list

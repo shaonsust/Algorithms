@@ -13,7 +13,7 @@ def bubble_sort(arr):
     """Take an unsorted list and return a sorted list.
 
     Arguments:
-        arr {integer or float type list} -- Return sorted list.
+        arr {integer or float type list} -- it could be sorted or unsorted list.
 
     Returns:
         integer or float type -- Return a sorted list.
