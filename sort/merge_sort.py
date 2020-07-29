@@ -9,7 +9,7 @@ python merge_sort.py
 
 
 def merge_sort(arr):
-    """Give an unsorted list and it will return a sorted list.
+    """Taken an unsorted list and it will return a sorted list.
 
     Arguments:
         float or integer type list -- it could be sorted or unsorted list.
