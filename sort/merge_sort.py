@@ -9,19 +9,19 @@ python merge_sort.py
 
 
 def merge_sort(arr):
-    """Taken an unsorted list and it will return a sorted list.
+    """
+    Taken an unsorted list and it will return a sorted list.
 
-    Arguments:
-        float or integer type list -- it could be sorted or unsorted list.
+    Args:
+        arr(integer): it could be sorted or unsorted list.
 
     Returns:
-        float or integer type list -- return a sorted list.
+        arr(integer): return a sorted list.
 
     Example:
     >>> merge_sort([5, 4, 6, 2, 1, 3])
     [1, 2, 3, 4, 5, 6]
     """
-
 
     length = len(arr)
     if length <= 1:
@@ -45,16 +45,16 @@ def merge_sort(arr):
 
 
 def merge(left, right):
-    """Takes two sorted lists as two parameters and then merge it into one sorted list.
+    """
+    Takes two sorted lists as two parameters and then merge it into one sorted list.
 
     Keyword Arguments:
-        left list -- sorted list
-        right list -- sorted list
+        left(integer): sorted list
+        right(integer): sorted list
 
     Returns:
-        integer or float type -- Return a sorted merge list of two sorted list.
+        merge_arr(integer): Return a sorted merge list of two sorted list.
     """
-
 
     merged_arr = []
     l_s = 0

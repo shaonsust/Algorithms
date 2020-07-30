@@ -33,7 +33,6 @@ def bubble_sort(arr):
 
 
 if __name__ == '__main__':
-
     # Taking input from user
     USER_INPUT = [float(x) for x in input().split()]
 

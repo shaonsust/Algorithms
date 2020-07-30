@@ -10,7 +10,8 @@ python selection_sort.py
 
 
 def selection_sort(collection):
-    """Take a list for sorting.
+    """
+    Take a list for sorting.
 
     Args:
         collection (integer): It could be sorted or unsorted list.

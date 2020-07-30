@@ -10,7 +10,8 @@ python insertion_sort.py
 
 
 def insertion_sort(collection):
-    """Take an unsorted list, then sorted it and return.
+    """
+    Take an unsorted list, then sorted it and return.
 
     Args:
         collection (integer): An unsorted or sorted list.
