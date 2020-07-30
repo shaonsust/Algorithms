@@ -6,6 +6,8 @@ This algorithm will work on both float and integer type list.
 
 Run this file for manual testing by following command:
 python selection_sort.py
+
+Tutorial link: https://www.geeksforgeeks.org/selection-sort/
 """
 
 

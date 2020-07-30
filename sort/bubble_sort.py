@@ -6,6 +6,8 @@ This algorithm will work on both float and integer type list.
 
 Run this file for manual testing by following command:
 python bubble_sort.py
+
+Tutorial link: https://www.geeksforgeeks.org/bubble-sort/
 """
 
 
@@ -25,9 +27,14 @@ def bubble_sort(arr):
     """
 
     for i in range(len(arr) - 1):
+        flag = True
+
         for j in range(len(arr) - i - 1):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j] # Swaping here
+                flag = False
+        if flag:
+            break
 
     return arr
 

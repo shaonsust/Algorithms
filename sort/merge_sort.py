@@ -5,6 +5,8 @@ Python 3.8.2
 
 Run this file by following command:
 python merge_sort.py
+
+Tutorial link: https://www.geeksforgeeks.org/merge-sort/
 """
 
 
