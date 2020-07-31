@@ -11,7 +11,7 @@ Tutorial link: https://www.geeksforgeeks.org/selection-sort/
 """
 
 
-def selection_sort(collection):
+def selection_sort(arr):
     """
     Take a list for sorting.
 
@@ -26,16 +26,18 @@ def selection_sort(collection):
     [3, 4, 5, 6, 7, 8]
     """
 
-    for i in enumerate(collection): #Outer loop
-        mn_pos = i[0]
-        for j in range(i[0], len(collection)): #Inner loop
-            if collection[j] < collection[mn_pos]:
+    length = len(arr)
+    for i in range(length):  #Outer loop
+        mn_pos = i
+
+        for j in range(i, length): #Inner loop
+            if arr[j] < arr[mn_pos]:
                 mn_pos = j
 
         # Swaping here
-        collection[i[0]], collection[mn_pos] = collection[mn_pos], collection[i[0]]
+        arr[i], arr[mn_pos] = arr[mn_pos], arr[i]
 
-    return collection
+    return arr
 
 
 if __name__ == "__main__":
