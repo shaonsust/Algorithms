@@ -25,15 +25,13 @@ def insertion_sort(collection):
     >>> insertion_sort([5, 4, 6, 8 7 3])
     [3, 4, 5, 6, 7, 8]
     """
-
+    
     for i in range(1, len(collection)):
-        temp = collection[i]
-        ptr = i - 1
-        while temp < collection[ptr] and ptr >= 0:
-            collection[ptr+1] = collection[ptr]
-            ptr = ptr - 1
-        collection[ptr + 1] = temp
-
+        for j in range(i, 0, -1):
+            if collection[j] < collection[j-1]:
+                collection[j], collection[j-1] = collection[j-1], collection[j]
+            else:
+                break
     return collection
 
 
