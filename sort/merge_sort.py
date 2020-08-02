@@ -73,11 +73,11 @@ def merge(left, right):
             r_s = r_s + 1
 
     if l_s == l_l:
-        for i in range(r_l - r_s):
-            merged_arr.append(right[r_s + i])
+        for i in range(r_s, r_l):
+            merged_arr.append(right[i])
     else:
-        for i in range(l_l - l_s):
-            merged_arr.append(left[l_s + i])
+        for i in range(l_s, l_l):
+            merged_arr.append(left[i])
 
     return merged_arr
 
